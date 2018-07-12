@@ -1,0 +1,23 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging C:\Users\Tom\Documents\AkkaPerfTest\target\scala-2.12\akkaperftest_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sample\cluster[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Tom\Documents\AkkaPerfTest\target\scala-2.12\classes\sample\cluster[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sample\cluster\simple[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Tom\Documents\AkkaPerfTest\target\scala-2.12\classes\sample\cluster\simple[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sample\cluster\simple\SimpleClusterListener.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Tom\Documents\AkkaPerfTest\target\scala-2.12\classes\sample\cluster\simple\SimpleClusterListener.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyActor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Tom\Documents\AkkaPerfTest\target\scala-2.12\classes\MyActor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sample\cluster\simple\SimpleClusterApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Tom\Documents\AkkaPerfTest\target\scala-2.12\classes\sample\cluster\simple\SimpleClusterApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sample\cluster\simple\SimpleClusterListener$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Tom\Documents\AkkaPerfTest\target\scala-2.12\classes\sample\cluster\simple\SimpleClusterListener$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyActor$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Tom\Documents\AkkaPerfTest\target\scala-2.12\classes\MyActor$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sample\cluster\simple\SimpleClusterApp$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Tom\Documents\AkkaPerfTest\target\scala-2.12\classes\sample\cluster\simple\SimpleClusterApp$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sample[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Tom\Documents\AkkaPerfTest\target\scala-2.12\classes\sample[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sample\cluster\simple\SimpleClusterApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Tom\Documents\AkkaPerfTest\target\scala-2.12\classes\sample\cluster\simple\SimpleClusterApp$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

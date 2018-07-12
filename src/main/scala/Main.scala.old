@@ -1,0 +1,35 @@
+import akka.actor.{Actor, ActorSystem, Props}
+import akka.event.Logging
+
+class MyActor extends Actor {
+  def getPi(n: Int): Double = {
+    (0 until 10).map(r => {
+      val k = 1.0 / Math.pow(16.0, r)
+      k * (4.0 / (8 * r + 1) - 2.0 / (8 * r + 4) - 1.0 / (8 * r + 5) - 1.0 / (8 * r + 6))
+    }).sum
+  }
+
+  def getPi1000() = {
+    for (_ <- 0 to 1000)
+      getPi(1000)
+
+    print("#")
+  }
+
+  val log = Logging(context.system, this)
+
+  def receive = {
+    case "test" => log.info("received test")
+    case "start" => {
+      getPi1000()
+    }
+  }
+}
+
+object Main extends App {
+  val system = ActorSystem("MySystem")
+  val myActor = system.actorOf(Props[MyActor], name = "myactor")
+  for( _ <- 0 to 400)
+    myActor ! "start"
+  println("-end")
+}
